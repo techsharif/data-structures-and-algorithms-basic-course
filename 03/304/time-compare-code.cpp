@@ -30,7 +30,7 @@ long solution02(long n){
 void calc(long n){
     long answer;
 
-    cout << "For " << n << ":\n";
+    cout << "\n\nFor " << n << ":\n";
 
     auto start_time = std::chrono::high_resolution_clock::now();
 
@@ -39,7 +39,7 @@ void calc(long n){
     auto end_time = std::chrono::high_resolution_clock::now();
     auto time = end_time - start_time;
 
-    cout << "Solve 01 -> " << answer << " " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << "\n";
+    cout << "Solution 01 -> " << answer << " " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << "\n";
 
 
     start_time = std::chrono::high_resolution_clock::now();
@@ -48,7 +48,7 @@ void calc(long n){
 
     end_time = std::chrono::high_resolution_clock::now();
     time = end_time - start_time;
-    cout << "Solve 02 -> " << answer << " " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << "\n";
+    cout << "Solution 02 -> " << answer << " " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << "\n";
 }
 
 int main(){
