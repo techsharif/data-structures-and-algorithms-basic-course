@@ -1,0 +1,128 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+long MOD = 1000007;
+long solution01(long n){
+    long sum = 0;
+    long item = 0;
+    for (int i=1; i<=n; i++){
+        item = (item + i) % MOD;
+        sum = (sum + item) % MOD;
+    }
+    return sum;
+
+}
+
+
+long solution02(long n){
+    long sum = 0;
+    for (int i=1; i<=n; i++){
+        long item = 0;
+        for (int j=1; j<=i; j++){
+            item = (item + j) % MOD;
+        }
+        sum = (sum + item) % MOD;
+    }
+    return sum;
+
+}
+
+void calc(long n){
+    long answer;
+
+    cout << "\nFor " << n << ":\n";
+
+    auto start_time = std::chrono::high_resolution_clock::now();
+
+    answer = solution01(n);
+
+    auto end_time = std::chrono::high_resolution_clock::now();
+    auto time = end_time - start_time;
+
+    cout << "Solution 01 -> " << answer << " " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << "\n";
+
+
+    start_time = std::chrono::high_resolution_clock::now();
+
+    answer = solution01(n);
+
+    end_time = std::chrono::high_resolution_clock::now();
+    time = end_time - start_time;
+    cout << "Solution 01 (Re) -> " << answer << " " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << "\n";
+}
+
+int main(){
+
+    calc(1);
+    calc(10);
+    calc(100);
+    calc(1000);
+    calc(10000);
+    calc(100000);
+
+    return 0;
+}
+#include<bits/stdc++.h>
+using namespace std;
+
+long MOD = 1000007;
+long solution01(long n){
+    long sum = 0;
+    long item = 0;
+    for (int i=1; i<=n; i++){
+        item = (item + i) % MOD;
+        sum = (sum + item) % MOD;
+    }
+    return sum;
+
+}
+
+
+long solution02(long n){
+    long sum = 0;
+    for (int i=1; i<=n; i++){
+        long item = 0;
+        for (int j=1; j<=i; j++){
+            item = (item + j) % MOD;
+        }
+        sum = (sum + item) % MOD;
+    }
+    return sum;
+
+}
+
+void calc(long n){
+    long answer;
+
+    cout << "\nFor " << n << ":\n";
+
+    auto start_time = std::chrono::high_resolution_clock::now();
+
+    answer = solution01(n);
+
+    auto end_time = std::chrono::high_resolution_clock::now();
+    auto time = end_time - start_time;
+
+    cout << "Solution 01 -> " << answer << " " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << "\n";
+
+
+    start_time = std::chrono::high_resolution_clock::now();
+
+    answer = solution01(n);
+
+    end_time = std::chrono::high_resolution_clock::now();
+    time = end_time - start_time;
+    cout << "Solution 01 (Re) -> " << answer << " " << std::chrono::duration_cast<std::chrono::microseconds>(time).count() << "\n";
+}
+
+int main(){
+
+    calc(1);
+    calc(10);
+    calc(100);
+    calc(1000);
+    calc(10000);
+    calc(100000);
+
+    return 0;
+}
