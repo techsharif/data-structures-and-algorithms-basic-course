@@ -30,7 +30,7 @@ long solution02(long n){
 void calc(long n){
     long answer;
 
-    cout << "\n\nFor " << n << ":\n";
+    cout << "\nFor " << n << ":\n";
 
     auto start_time = std::chrono::high_resolution_clock::now();
 
