@@ -28,10 +28,6 @@ long solution02(long n){
 }
 
 void calc(long n){
-
-    time_t start;
-    time_t end;
-    double seconds;
     long answer;
 
     cout << "For " << n << ":\n";
