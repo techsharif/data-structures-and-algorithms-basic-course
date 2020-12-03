@@ -13,11 +13,11 @@ long solution01(long n){
 
 }
 
+
 long solution02(long n){
     long sum = 0;
-    long item = 0;
     for (int i=1; i<=n; i++){
-        item = 0;
+        long item = 0;
         for (int j=1; j<=i; j++){
             item = (item + j) % MOD;
         }
