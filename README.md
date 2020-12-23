@@ -28,6 +28,8 @@
 	 - [Bangla Data Structures and Algorithms (Basic) - 301 - Complexity 01 - What is complexity?](https://youtu.be/fyS5nrfJBz4)
    - [Bangla Data Structures and Algorithms (Basic) - 302 - Analyze Complexity - Part 01](https://youtu.be/dQgy1_wrLOI)
    - [Bangla Data Structures and Algorithms (Basic) - 303 - Analyze Complexity - Part 02 - count steps](https://youtu.be/kSGfvwTIPMI)
+   - [Bangla Data Structures and Algorithms (Basic) - 304 - Analyze Complexity - Part 03 - Why we need to count steps?](https://youtu.be/79zdOEYM5dM)
+   - [Bangla Data Structures and Algorithms (Basic) - 305 - Analyze Complexity - Part 04 - Is it necessary to count all steps?](https://youtu.be/VdSOSoKR2uE)
    
  - 04 - Array 
 	 - [Bangla Data Structures and Algorithms (Basic) - 401 - Array introduction](https://youtu.be/LvLYTqmIRwU)
